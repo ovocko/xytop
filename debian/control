@@ -1,0 +1,26 @@
+Source: xytop
+Section: utils
+Priority: optional
+Maintainer: Your Name <your.email@example.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.6.2
+
+Package: xytop
+Architecture: all
+Depends: ${python3:Depends}, 
+         ${misc:Depends}, 
+         python3-psutil (>= 5.8.0), 
+         python3-scapy (>= 2.4.5)
+Description: Combined system monitor
+ Terminal-based monitoring tool combining process monitoring,
+ disk I/O, and network traffic analysis in a single interface.
+ .
+ Features:
+  * Real-time CPU, memory, and swap usage monitoring
+  * Disk usage and I/O statistics
+  * Network traffic analysis with packet inspection
+  * Process listing with resource usage
+  * Historical trends with simple graphs

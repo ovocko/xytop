@@ -1,0 +1,18 @@
+Package: xytop
+Version: 1.0.0
+Architecture: all
+Maintainer: Your Name <your.email@example.com>
+Installed-Size: 37
+Depends: python3-psutil (>= 5.8.0), python3-scapy (>= 2.4.5), python3:any
+Section: utils
+Priority: optional
+Description: Combined system monitor
+ Terminal-based monitoring tool combining process monitoring,
+ disk I/O, and network traffic analysis in a single interface.
+ .
+ Features:
+  * Real-time CPU, memory, and swap usage monitoring
+  * Disk usage and I/O statistics
+  * Network traffic analysis with packet inspection
+  * Process listing with resource usage
+  * Historical trends with simple graphs

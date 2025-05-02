@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xytop
+Version: 1.0.0
+Summary: Combined system monitor (processes, disk I/O, and network)
+Home-page: https://example.com/xytop
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6

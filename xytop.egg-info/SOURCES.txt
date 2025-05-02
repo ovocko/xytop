@@ -1,0 +1,8 @@
+setup.py
+xytop.py
+xytop.egg-info/PKG-INFO
+xytop.egg-info/SOURCES.txt
+xytop.egg-info/dependency_links.txt
+xytop.egg-info/entry_points.txt
+xytop.egg-info/requires.txt
+xytop.egg-info/top_level.txt
