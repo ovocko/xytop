@@ -55,7 +55,8 @@ xytop
 For full network analysis capabilities, run with sudo:
 
 ```bash
-sudo xytop
+Cd ~/xytop
+sudo ./xytop.py
 ```
 
 ### Controls
